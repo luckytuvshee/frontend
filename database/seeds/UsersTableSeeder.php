@@ -12,18 +12,18 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         App\User::create([
-            'email' => 'guest@myshop.com',
+            'email' => 'guest@gmail.com',
             'last_name' => 'Guest',
             'first_name' => 'Guest',
-            'password' => Hash::make('12121212')
+            'password' => Hash::make('secret123')
         ]);
 
         App\User::create([
-            'email' => 'taylor@yahoo.com',
-            'last_name' => 'Swift',
-            'first_name' => 'Taylor',
-            'mobile_number' => '99990019',
-            'password' => Hash::make('12121212')
+            'email' => 'user1@gmail.com',
+            'last_name' => 'Bold',
+            'first_name' => 'Bilguun',
+            'mobile_number' => '88998800',
+            'password' => Hash::make('secret123')
         ]);
     }
 }

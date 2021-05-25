@@ -14,31 +14,31 @@ class EmployeesTableSeeder extends Seeder
     {
         // Super admin
         App\Employee::create([
-            'email' => 'superadmin@test.com',
-            'last_name' => 'Doe',
-            'first_name' => 'John',
-            'mobile_number' => '99999999',
+            'email' => 'admin@gmail.com',
+            'last_name' => 'Bat',
+            'first_name' => 'Dorj',
+            'mobile_number' => '98900990',
             'employee_type_id' => 1,
-            'password' => Hash::make('12121212')
+            'password' => Hash::make('secret123')
         ]);
 
         // Shipper
         App\Employee::create([
-            'email' => 'tom@test.com',
-            'last_name' => 'Hardy',
-            'first_name' => 'Tom',
-            'mobile_number' => '88889900',
+            'email' => 'nomin@gmail.com',
+            'last_name' => 'Batsaikhan',
+            'first_name' => 'Nomin',
+            'mobile_number' => '90092299',
             'employee_type_id' => 2,
-            'password' => Hash::make('12121212')
+            'password' => Hash::make('secret123')
         ]);
 
         App\Employee::create([
-            'email' => 'nancy@test.com',
-            'last_name' => 'Williams',
-            'first_name' => 'Nancy',
-            'mobile_number' => '88889988',
+            'email' => 'purev@gmail.com',
+            'last_name' => 'Bat',
+            'first_name' => 'Purev',
+            'mobile_number' => '99880099',
             'employee_type_id' => 2,
-            'password' => Hash::make('12121212')
+            'password' => Hash::make('secret123')
         ]);
     }
 }
